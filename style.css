@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+nav {
+  background-color: #004080;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #004080;
+}
+
+ul {
+  list-style-type: square;
+}
+
+form input, form textarea {
+  width: 300px;
+  padding: 5px;
+}
