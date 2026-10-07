@@ -2,31 +2,125 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>GraceCare Medical Center - Home</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compassionate, patient-first healthcare in Nakuru, Kenya. Explore BlossomCare Hospital services and meet our care team.">
+  <meta name="theme-color" content="#087e79">
+  <title>BlossomCare Hospital | Care that puts you first</title>
+  <link rel="stylesheet" href="grace_care_website/css/style.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="doctors.html">Doctors</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <a class="brand" href="#main" aria-label="BlossomCare Hospital home">
+      <span class="brand-mark" aria-hidden="true">+</span>
+      <span><span class="brand-name">BlossomCare</span><span class="brand-tagline">Hospital · Nakuru</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="grace_care_website/service.html">Services</a>
+      <a href="grace_care_website/doctors.html">Our doctors</a>
+      <a class="nav-cta" href="grace_care_website/contact.html">Contact us</a>
+    </nav>
+  </header>
 
-  <h1 style="color:darkblue;">Welcome to GraceCare Medical Center</h1>
-  <p>Your health, our priority. We provide modern, compassionate healthcare.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Here for your health, every day</p>
+          <h1>Care that puts you first.</h1>
+          <p>Compassionate, thoughtful healthcare for you and your family, close to home in Nakuru.</p>
+          <div class="button-row">
+            <a class="button" href="grace_care_website/contact.html">Get in touch <span aria-hidden="true">&nbsp;→</span></a>
+            <a class="button button-secondary" href="#services">Explore our services</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section>
-    <h2>Key Services</h2>
-    <ul>
-      <li>Emergency Care</li>
-      <li>Surgery</li>
-      <li>Pediatrics</li>
-      <li>Cardiology</li>
-      <li>Radiology</li>
-      <li>Pharmacy</li>
-    </ul>
-  </section>
+    <div class="trust-strip" aria-label="Hospital highlights">
+      <div class="trust-item"><strong>Care with compassion</strong><span>People come before everything.</span></div>
+      <div class="trust-item"><strong>A team you can trust</strong><span>Experienced care across specialties.</span></div>
+      <div class="trust-item"><strong>Right here in Nakuru</strong><span>Local care for our community.</span></div>
+    </div>
+
+    <section class="section container" id="services" aria-labelledby="services-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Care for every stage of life</p>
+        <h2 id="services-heading">Healthcare for what matters most.</h2>
+        <p>From urgent needs to ongoing wellbeing, our team is here to help you take the next step with confidence.</p>
+      </div>
+      <div class="card-grid">
+        <article class="info-card service-card">
+          <img class="service-image" src="https://images.unsplash.com/photo-1633488781325-d36e6818d0c8?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Doctor and nurse caring for a patient in a hospital bed" loading="lazy" decoding="async">
+          <div class="service-card-content">
+            <h3>Emergency care</h3>
+            <p>Prompt support when you need urgent medical attention. For life-threatening emergencies, call local emergency services.</p>
+          </div>
+        </article>
+        <article class="info-card service-card">
+          <img class="service-image" src="https://images.unsplash.com/photo-1632053002928-1919605ee6f7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cGVkaWF0cmljJTIwZG9jdG9yJTIwY2hpbGR8ZW58MHx8fHwxNzkxMzI0ODE4fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=900" alt="A doctor examining a young child" loading="lazy" decoding="async">
+          <div class="service-card-content">
+            <h3>Family &amp; pediatrics</h3>
+            <p>Thoughtful care for children and families, with a focus on listening, prevention and healthy growth.</p>
+          </div>
+        </article>
+        <article class="info-card service-card">
+          <img class="service-image" src="https://images.unsplash.com/photo-1579684453423-f84349ef60b0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8c3VyZ2VvbnMlMjBvcGVyYXRpbmclMjByb29tfGVufDB8fHx8MTc5MTMyNDgxNnww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=900" alt="Surgeons in blue scrubs performing an operation" loading="lazy" decoding="async">
+          <div class="service-card-content">
+            <h3>Specialist services</h3>
+            <p>Access surgical, cardiac, radiology and pharmacy services through one caring team.</p>
+          </div>
+        </article>
+      </div>
+      <a class="text-link" href="grace_care_website/service.html">Explore all services <span aria-hidden="true">→</span></a>
+    </section>
+
+    <section class="section container gallery-section" id="gallery" aria-labelledby="gallery-heading">
+      <div class="section-heading">
+        <p class="eyebrow">A look around BlossomCare</p>
+        <h2 id="gallery-heading">A look around our hospital.</h2>
+        <p>Take a look at our hospital, meet some of our care team and see the spaces where we care for our community.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-card">
+          <img class="gallery-image" src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8aG9zcGl0YWwlMjBleHRlcmlvcnxlbnwwfHx8fDE3OTEzMjQyODh8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000" alt="Hospital building on a clear day" loading="lazy" decoding="async">
+          <figcaption><strong>Our hospital</strong><span>Show visitors where to find us.</span></figcaption>
+        </figure>
+        <figure class="gallery-card">
+          <img class="gallery-image" src="https://images.unsplash.com/photo-1504813184591-01572f98c85f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8ZG9jdG9ycyUyMG1lZGljYWwlMjB0ZWFtfGVufDB8fHx8MTc5MTMyNDI5MXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000" alt="Medical professionals working together in a hospital" loading="lazy" decoding="async">
+          <figcaption><strong>Our care team</strong><span>Introduce the people behind your care.</span></figcaption>
+        </figure>
+        <figure class="gallery-card">
+          <img class="gallery-image" src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8aG9zcGl0YWwlMjBpbnRlcmlvcnxlbnwwfHx8fDE3OTEzMjQyOTR8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1000" alt="A clean, bright hospital patient room" loading="lazy" decoding="async">
+          <figcaption><strong>Our spaces</strong><span>Share a welcoming view of your facilities.</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section-tight container" id="contact">
+      <div class="cta-panel">
+        <div>
+          <h2>We’re here when you need us.</h2>
+          <p>Reach out to our team for general enquiries and visit information.</p>
+        </div>
+        <a class="button" href="grace_care_website/contact.html">Contact BlossomCare <span aria-hidden="true">&nbsp;→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="copyright-year">2026</span> BlossomCare Hospital · Nakuru, Kenya</p>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="grace_care_website/service.html">Services</a>
+        <a href="grace_care_website/doctors.html">Our doctors</a>
+        <a href="grace_care_website/contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>
